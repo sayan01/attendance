@@ -32,7 +32,7 @@ while True:
     else:
         print("❌ Invalid Participant")
 
-print("Attendance of", ["AL1", "AL2", "M12", "M5"][inp],": ")
+print("Attendance of", ["AL1", "AL2", "M12", "M5"][inp-1],": ")
 for stud in attn:
     print(stud)
 
